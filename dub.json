@@ -1,0 +1,26 @@
+{
+    "name": "x509",
+    "description": "X.509 certificate encoding and decoding",
+    "authors": [
+        "Jonathan M. Wilbur <jonathan@wilbur.space>"
+    ],
+    "license": "MIT",
+	"homepage": "https://github.com/JonathanWilbur/x509-d",
+	"targetType": "executable",
+	"importPaths": [
+		"source/"
+	],
+	"sourcePaths": [
+		"source/"
+	],
+    "excludedSourceFiles": [],
+	"targetPath": "build/libraries/",
+	"buildRequirements": [
+		"silenceWarnings",
+		"silenceDeprecations",
+		"requireBoundsCheck"
+	],
+	"dependencies": {
+		"asn1": "~>2.2.0"
+	}
+}
